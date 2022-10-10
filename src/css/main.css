@@ -1,0 +1,10 @@
+.tmvpa-video-front {
+    height: 100%;
+    width: 100%;
+    z-index: 10000;
+    position: absolute;
+}
+.tmvpa-video-detail{
+    position: absolute;
+    z-index: 10001;
+}

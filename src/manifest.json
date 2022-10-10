@@ -1,0 +1,22 @@
+{
+    "name": "twitter-multiple-video-play-assistant",
+    "description": "Twitterの複数メディアツイートをアシスタントする",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "html/popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://twitter.com/*"
+            ],
+            "js": [
+                "js/main.js"
+            ],
+            "css": [
+                "css/main.css"
+            ]
+        }
+    ]
+}
