@@ -1,6 +1,6 @@
 # twitter-multiple-video-play-assistant
 
-Twitter の複数メディアツイートをアシスタントする
+Twitter の複数メディアツイートをアシストする
 
 ## 機能
 
